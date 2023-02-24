@@ -1,0 +1,16 @@
+.section-main{    
+    box-sizing: border-box;
+    background-color: rgb(43, 217, 226);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #000;       
+}
+
+.section-main .main-title{
+    margin-bottom: 60px;
+}
+
+.section-projets{    
+background-color: #000;
+border-bottom: 10px solid #bb6464;   
+}

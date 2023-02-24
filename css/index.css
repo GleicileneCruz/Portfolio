@@ -5,13 +5,7 @@ img{
     border-radius: 20%;
 }
 
-.imagem-usuario{    
-    height: 900px;
-    width: 100%;
-    position: absolute;
-    background: url("../img/usuario.jpeg") no-repeat ;
-    background-size: cover;   
-}
+
 
 
 

@@ -11,43 +11,105 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./components/title.css">
+    <link rel="stylesheet" href="./components/main-title.css">
     <link rel="stylesheet" href="./components/subtitle.css">
-    <link rel="stylesheet" href="./components/button.css">
-    <link rel="stylesheet" href="./components/action.css"> 
-    <link rel="stylesheet" href="./components/box.css">
-    <link rel="stylesheet" href="./components/header.css">
-    
+    <link rel="stylesheet" href="./components/button-cv.css">
+    <link rel="stylesheet" href="./components/action-header.css"> 
+    <link rel="stylesheet" href="./components/box-subtitle.css">
+    <link rel="stylesheet" href="./components/header-first.css">
+    <link rel="stylesheet" href="./components/banner-sub.css">
+    <link rel="stylesheet" href="./components/section-main.css">
+    <link rel="stylesheet" href="./components/skill-tec.css">
+    <link rel="stylesheet" href="./components/progress-bar.css">
+    <link rel="stylesheet" href="./components/wrapper-skill.css">
+    <link rel="stylesheet" href="./components/wrapper-projets.css">
 
 </head>
 <body>
 
- <header class="header">        
+ <header class="header-first">        
     <img src="./img/avatar.png"  alt="avatar">
         
     <nav>
-        <a class="action" href="" lang="en">Skills</a>
-        <a class="action" href="">Projetos</a>
-        <a class="action" href="">Sobre</a>
-        <a class="action" href="">Contatos</a>
-        <a class="button" href="" lang="en">Download CV</a>         
+        <a class="action-header" href="" lang="en">Skills</a>
+        <a class="action-header" href="">Projetos</a>
+        <a class="action-header" href="">Sobre</a>
+        <a class="action-header" href="">Contatos</a>
+        <a class="button-cv" href="" lang="en">Download CV</a>         
     </nav>    
    
  </header>
 
-<div>
-    <div class="box">
-        <h1 class="title">Gleicilene Cruz</h1>
-        <h2 class="subtitle">FrontEnd Developer</h2>    
-    </div>
-    
-    <div>         
-        <a class="button" href="" lang="en">Download CV</a>
-        <a class="button" href="">Contatos</a>
-    </div>
+    <section class="banner-sub">
+        <div class="wrapper">
+            <div class="box-subtitle">
+                <h1 class="main-title">Gleicilene Cruz</h1>
+                <h2 class="subtitle">FrontEnd Developer</h2>    
+            </div>
+            
+            <div class="navigation">         
+                <a class="button-cv" href="" lang="en">Download CV</a>
+                <a class="button-cv" href="">Contatos</a>
+            </div>
 
-    <div class="imagem-usuario"></div>
-</div>
+        </div>
+    </section>
+
+    <section class="section-main">
+        <h2 class="main-title -second">Skills</h2> 
+
+        <div class="wrapper-skill">
+            <article class="skill-tec">        
+                <img class="icon" src="./img/avatar.png" alt="Logo do HTML"> 
+                <div class="right">
+                    <h3 class="title">HTML</h3>             
+                    <progress class="progress-bar" max="100" value="70">70%</progress>           
+                </div>                 
+            </article> 
+            <article class="skill-tec">        
+                <img class="icon" src="./img/avatar.png" alt="Logo do CSS"> 
+                <div class="right">
+                    <h3 class="title">CSS</h3>             
+                    <progress class="progress-bar" max="100" value="70">70%</progress>           
+                </div>                 
+            </article>
+            <article class="skill-tec">        
+                <img class="icon" src="./img/avatar.png" alt="Logo do Java"> 
+                <div class="right">
+                    <h3 class="title">Java</h3>             
+                    <progress class="progress-bar" max="100" value="70">70%</progress>           
+                </div>                 
+            </article>
+            <article class="skill-tec">        
+                <img class="icon" src="./img/avatar.png" alt="Logo do Spring"> 
+                <div class="right">
+                    <h3 class="title">Spring</h3>             
+                    <progress class="progress-bar" max="100" value="70">70%</progress>           
+                </div>                 
+            </article>       
+        </div>            
+    </section>
+
+    <section class="section-projets">
+        <h2 class="main-title -second">Projetos</h2>
+        
+        <div class="wrapper-projets"> 
+            <a href="www.google.com.br" target="_blank">
+            <figure>
+                <img class="img" src="./img/java.png" alt="Logo Java">
+            </figure>
+            </a>
+            <a href="./img/java.png" target="_blank">
+            <figure >
+                <img class="img" src="./img/java.png" alt="Logo Java">
+            </figure>
+            </a>
+            <figure>
+                <img class="img" src="./img/avatar.png" alt="Logo Avatar">
+            </figure>        
+           
+        </div>                  
+    </section>
 
     
 </body>

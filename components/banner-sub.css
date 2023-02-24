@@ -1,0 +1,25 @@
+.banner-sub{
+    box-sizing: border-box;
+    height: 800px; 
+    width: 100%;   
+    background: url("../img/usuario.jpeg") no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid #000; 
+    padding-top: 115px;
+    padding-left: 60px; 
+}
+
+.banner-sub .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.banner-sub .box{
+    margin-bottom: 40px;
+}
+
+.banner-sub .navigation{
+    display: flex;
+    justify-content: space-evenly;
+}
